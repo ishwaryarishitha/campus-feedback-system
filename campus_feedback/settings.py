@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     # Crispy Forms
     'crispy_forms',
-    'crispy_bootstrap5',
+    'crispy_bootstrap4',
 
     # Project apps
     'Home',
@@ -140,5 +140,5 @@ LOGIN_REDIRECT_URL = 'ListFeedbackView'
 ADMIN_SITE_HEADER = "Campus Feedback Administration"
 ADMIN_SITE_TITLE = "Campus Feedback Admin"
 ADMIN_INDEX_TITLE = "Welcome to Campus Feedback Admin Panel"
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
-CRISPY_TEMPLATE_PACK = "bootstrap5"
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+CRISPY_TEMPLATE_PACK = "bootstrap4"
