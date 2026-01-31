@@ -37,11 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Home.apps.HomeConfig',
-    'Feedback.apps.FeedbackConfig',
-    'Review.apps.ReviewConfig',
+
+    # Crispy Forms
     'crispy_forms',
+    'crispy_bootstrap5',
+
+    # Project apps
+    'Home',
+    'Feedback',
+    'Review',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,5 +140,5 @@ LOGIN_REDIRECT_URL = 'ListFeedbackView'
 ADMIN_SITE_HEADER = "Campus Feedback Administration"
 ADMIN_SITE_TITLE = "Campus Feedback Admin"
 ADMIN_INDEX_TITLE = "Welcome to Campus Feedback Admin Panel"
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
