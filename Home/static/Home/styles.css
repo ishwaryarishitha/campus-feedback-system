@@ -1,13 +1,14 @@
-.bg-crimson {
-    background-color: #dc143c;
+.bg-Purple {
+    background-color: #6d28d9;
+
 }
 
-.bg-crimson a {
-    color: #ffffff;
+.bg-Purple a {
+    color: #efe3e3;
 }
 
-.bg-crimson p {
-    color: #ffffff;
+.bg-Purple p {
+    color: #efe3e3;
 }
 
 body {
